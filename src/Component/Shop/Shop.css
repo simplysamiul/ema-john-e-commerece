@@ -1,0 +1,11 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    
+}
+.price-container{
+    border-left: 2px solid lightgray;
+}
+.price-container h2{
+    text-align: center;
+}

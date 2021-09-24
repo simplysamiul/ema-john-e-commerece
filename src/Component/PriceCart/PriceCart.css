@@ -1,0 +1,14 @@
+.price-details h2, h3{
+    text-align: center;
+}
+.price-details h3{
+    font-weight: 500;
+}
+.price-tabel{
+    margin-left: 5px;
+}
+.total-order{
+    font-size: 18px;
+    color: #b12704;
+    font-weight: 700;
+}

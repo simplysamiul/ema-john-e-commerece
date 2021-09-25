@@ -17,6 +17,12 @@
 .product-info h5{
     font-size: 18px;
 }
+.rating-star{
+    display: block;
+    text-align: center;
+    margin: 10px;
+    color: #f0c14b;
+}
 .product-info button{
     background-color: #f0c14b;
     border-color: #a88734 #9c7e31 #846a29;

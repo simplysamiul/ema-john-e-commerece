@@ -3,6 +3,7 @@ import './PriceCart.css';
 
 const PriceCart = (props) => {
     const {cart} = props;
+    console.log(props.children);
     // -------------(Alternative of reduce)--------
     // const totalReducer = (previous, product)=> previous + product.price;
     // const total = cart.reduce(totalReducer, 0);
@@ -46,6 +47,7 @@ const PriceCart = (props) => {
                         </tbody>
                     </table>
                 </div>
+                {props.children}
             </div>
         </div>
     );

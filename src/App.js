@@ -10,6 +10,7 @@ import {
   Link
 } from "react-router-dom";
 import NotFound from './Component/NotFound/NotFound';
+import PlaceOrder from './Component/PlaceOrder/PlaceOrder';
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
           </Route>
           <Route path="/inventory">
             <Inventory></Inventory>
+          </Route>
+          <Route path="/placeOrder">
+            <PlaceOrder></PlaceOrder>
           </Route>
           <Route path="*">
             <NotFound></NotFound>

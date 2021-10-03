@@ -24,7 +24,7 @@ const Product = (props) => {
                 > 
                 </Rating>
                 </div>
-                <button onClick = {()=>props.handelAddProduct(props.product)}> <FontAwesomeIcon icon={faShoppingCart} /> add to cart</button>
+                <button className="buttion" onClick = {()=>props.handelAddProduct(props.product)}> <FontAwesomeIcon icon={faShoppingCart} /> add to cart</button>
             </div>
         </div>
     );

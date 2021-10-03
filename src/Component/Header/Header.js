@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {NavLink } from 'react-router-dom';
 import logo from '../../resource/images/logo.png'
 import './Header.css';
 
@@ -12,10 +12,11 @@ const Header = () => {
                 </div>
                 <div className="menu-bar">
                     <ul>
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/shop">Shop</Link></li>
-                        <li><Link to="/review">Order Review</Link></li>
-                        <li><Link to="inventory">Manage Inventory</Link></li>
+                        <li><NavLink to="/">Home</NavLink></li>
+                        <li><NavLink activeStyle={{fontWeight: "bold",color: "lightgray", borderBottom : "3px solid lightGray", paddingBottom: "5px"}} 
+                        to="/shop">Shop</NavLink></li>
+                        <li><NavLink activeStyle={{fontWeight: "bold",color: "lightgray", borderBottom : "3px solid lightGray", paddingBottom: "5px"}} to="/review">Order Review</NavLink></li>
+                        <li><NavLink activeStyle={{fontWeight: "bold",color: "lightgray", borderBottom : "3px solid lightGray", paddingBottom: "5px"}} to="inventory">Manage Inventory</NavLink></li>
                     </ul>
                 </div>
             </header>

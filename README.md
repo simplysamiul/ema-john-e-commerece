@@ -6,4 +6,7 @@ In this project I am try to make using react.js, vanila css and also external pa
 
 
 
-![Untitled](https://user-images.githubusercontent.com/76746810/134769341-79fd8ffc-6904-4b57-9fb4-e6f0045653e5.png)
+
+![Untitled](https://user-images.githubusercontent.com/76746810/135737561-93c295fd-02b5-4e28-8998-2971bfb079a9.png)
+
+
